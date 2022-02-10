@@ -21,18 +21,12 @@ export class CreateProcedures1644495686126 implements MigrationInterface {
                         type: "varchar"
                     },
                     {
-                        name: "image",
-                        type: "varchar",
-                        default: null,
-                        isNullable: true
-                    },
-                    {
                         name: "type",
                         type: "varchar"
                     },
                     {
-                        name: "date",
-                        type: "timestamp"
+                        name: "duration",
+                        type: "varchar"
                     },
                     {
                         name: "created_at",
